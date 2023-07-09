@@ -7,6 +7,9 @@ lib/libkedi.so: lib/kedi.o
 lib/kedi.o: lib/src/kedi.c
 	gcc -c lib/src/kedi.c -Iinclude -fPIC -o lib/kedi.o
 
+run:
+	LD_LIBRARY_PATH=lib kedi
+
 clean:
 	rm -rf lib/*.*o
 	rm -rf main
