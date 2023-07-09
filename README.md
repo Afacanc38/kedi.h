@@ -1,5 +1,10 @@
 # kedi.h
 Dinamik olarak bağlanabilir kitaplık denemeleri, aynı zamanda ilk C projem.
+## Çalıştırmak için
+```
+make
+make run
+```
 ## kedi_cinsi [enum]
 ```c
 enum kedi_cinsi
@@ -70,4 +75,3 @@ void rahat_birak (kedi *k)
 }
 ```
 Verilen kediyi bellek yığınından temizler. Bunu yapmayı unutmak bellek sızıntılarına yol açabilir.
-## 
